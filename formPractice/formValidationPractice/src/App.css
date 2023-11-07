@@ -1,0 +1,90 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("./assets/background.jpg");
+  background-size: cover;
+  /* background-position: center; */
+}
+
+form {
+  background-color: white;
+  border-color: #0000;
+  padding: 15px 60px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: rgb(77, 1, 77);
+  text-align: center;
+}
+
+.form2 {
+  text-align: center;
+  padding: 0 20px 0 20px;
+  position: relative;
+  line-height: 100px;
+  width: 30%;
+  background: #fff;
+  min-width: 280px;
+}
+.form2::after {
+  background: linear-gradient(
+    to right,
+    #bcbcbc 25%,
+    #ffcd02 25%,
+    #ffcd02 50%,
+    #e84f47 50%,
+    #e84f47 75%,
+    #65c1ac 75%
+  );
+  position: absolute;
+  content: "";
+  height: 4px;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.form2::before {
+  background: linear-gradient(
+    to right,
+    #bcbcbc 25%,
+    #ffcd02 25%,
+    #ffcd02 50%,
+    #e84f47 50%,
+    #e84f47 75%,
+    #65c1ac 75%
+  );
+  background: linear-gradient(
+    to left,
+    #bcbcbc 25%,
+    #ffcd02 25%,
+    #ffcd02 50%,
+    #e84f47 50%,
+    #e84f47 75%,
+    #65c1ac 75%
+  );
+  position: absolute;
+  content: "";
+  height: 4px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
